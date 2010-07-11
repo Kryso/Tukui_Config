@@ -1,5 +1,8 @@
 ## Interface: 30300
 ## Title: Tukui ingame config
 ## Author: Kryso
+## SavedVariables: Tukui_Config_GDB
+## SavedVariablesPerCharacter: Tukui_Config_PCDB
 
+Locale.lua
 Tukui_Config.lua
