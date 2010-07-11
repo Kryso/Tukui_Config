@@ -4,5 +4,14 @@
 ## SavedVariables: Tukui_Config_GDB
 ## SavedVariablesPerCharacter: Tukui_Config_PCDB
 
-Locale.lua
-Tukui_Config.lua
+Header.lua
+
+Locale/enGB.lua
+
+Widgets/FrameEx.lua
+Widgets/FramedFrame.lua
+Widgets/FramedText.lua
+Widgets/StackFrame.lua
+Widgets/TabControl.lua
+
+Core.lua
