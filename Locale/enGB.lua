@@ -8,24 +8,62 @@ setfenv( 1, LocaleData );
 
 title = "Tukui configuration";
 
-menu = {
-	nameplate = "Nameplates",
-	merchant = "Merchant",
-	general = "General",
-	bags = "Bags",
-	datatext = "Data text",
-	unitframes = "Unit frames",
-	buffreminder = "Buff reminder",
-	loot = "Loot",
-	map = "Map",
-	invite = "Invite",
-	error = "Error",
-	tooltip = "Tooltip",
-	combatfont = "Combat font",
-	panels = "Panels",
-	chat = "Chat",
-	actionbar = "Action bar",
-	watchframe = "Watch frame",
-	arena = "Arena",
-	cooldown = "Cooldowns",
+settings = {
+	nameplate = {
+		_title = "Nameplates"
+	},
+	merchant = {
+		_title = "Merchant",
+	},
+	general = {
+		_title = "General",
+	},
+	bags = {
+		_title = "Bags",
+	},
+	datatext = {
+		_title = "Data text",
+	},
+	unitframes = {
+		_title = "Unit frames",
+	},
+	buffreminder = {
+		_title = "Buff reminder",
+	},
+	loot = {
+		_title = "Loot",
+	},
+	map = {
+		_title = "Map",
+	},
+	invite = {
+		_title = "Invite",
+	},
+	error = {
+		_title = "Error",
+	},
+	tooltip = {
+		_title = "Tooltip",
+	},
+	combatfont = {
+		_title = "Combat font",
+	},
+	panels = {
+		_title = "Panels",
+	},
+	chat = {
+		_title = "Chat",
+	},
+	actionbar = {
+		_title = "Action bar",
+	},
+	watchframe = {
+		_title = "Watch frame",
+	},
+	arena = {
+		_title = "Arena",
+	},
+	cooldown = {
+		_title = "Cooldowns",
+	},
 };

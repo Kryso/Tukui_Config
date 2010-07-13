@@ -18,4 +18,7 @@ Widgets\FramedText.lua
 Widgets\StackFrame.lua
 Widgets\TabControl.lua
 
+Renderers\BooleanRenderer.lua
+Renderers\StringRenderer.lua
+
 Core.lua
