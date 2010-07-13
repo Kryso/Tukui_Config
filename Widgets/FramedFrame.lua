@@ -3,6 +3,14 @@ setfenv( 1, Internals );
 
 --[[ 
 	Creates frame with tukui-friendly border
+	
+	Constructor arguments:
+		parent (UIRegion)       - parent frame (default value inherited from FrameEx)
+		borderSize (number)     - size of line in the middle of border
+		borderPadding (number)  - size of "lines" around middle line of border
+		
+	Methods:
+		SetInnerBackgroundColor -
 ]]
 CreateFramedFrame = nil;
 do
@@ -14,7 +22,6 @@ do
 	
 	CreateFramedFrame = function( parent, borderSize, borderPadding )
 		-- defaults
-		parent = parent or UIParent;
 		borderSize = borderSize or 1;
 		borderPadding = borderPadding or 1;
 	

@@ -23,7 +23,7 @@ local Startup = function( _ )
 	
 	local title = CreateFramedText( frame, 8, nil, 16 );
 	title:SetPoint( "CENTER", frame, "TOP", 0, 0 );
-	title:SetText( L[ "configFrameTitle" ] );
+	title:SetText( L[ "title" ] );
 	
 	local menu = CreateStackFrame( frame, 0, menuButtonMargin );
 	menu:SetPoint( "TOP", frame, "TOPLEFT", 0, -menuMargin );
@@ -32,7 +32,7 @@ local Startup = function( _ )
 	local tabControl = CreateTabControl( frame );
 	for k, v in pairs( _G.TukuiDB ) do
 		if ( type( k ) == "string" and type( v ) == "table" ) then
-			local button, page = tabControl:Add( L[ k ] );
+			local button, page = tabControl:Add( L( "menu", k ) );
 			
 			menu:Insert( button );
 			

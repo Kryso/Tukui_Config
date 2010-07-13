@@ -1,8 +1,14 @@
 local _, Internals = ...;
 setfenv( 1, Internals );
 
---[[
+--[[ 
 	Creates scroll frame
+	
+	Constructor arguments:
+		parent (UIRegion)       - parent frame
+		
+	Methods:
+
 ]]
 CreateScrollFrame = nil;
 do

@@ -10,7 +10,6 @@ setfenv( 1, Internals );
 		
 	Methods
 		Add                     -
-		SetActivePage           -
 ]]
 CreateTabControl = nil;
 do
@@ -71,6 +70,8 @@ do
 	end
 	
 	methods.Add = function( self, title )
+		assert( type( title ) == "string", "Usage: Add( string title )" );
+	
 		local tabButton = CreateButton( self, title );
 		local tabPage = CreatePage( self );
 		
