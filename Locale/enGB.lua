@@ -7,6 +7,12 @@ LocaleData = { };
 setfenv( 1, LocaleData );
 
 title = "Tukui configuration";
+saveAndReload = "Save & reload UI";
+reload = "Reload ui?"
+
+dictionary = {
+	enable = "Enable",
+};
 
 settings = {
 	nameplate = {
@@ -14,6 +20,7 @@ settings = {
 	},
 	merchant = {
 		_title = "Merchant",
+		sellgrays = "Sell gray-quality items",
 	},
 	general = {
 		_title = "General",

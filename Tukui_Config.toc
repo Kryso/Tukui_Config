@@ -13,12 +13,15 @@ Database.lua
 
 Widgets\FrameEx.lua
 Widgets\ScrollFrame.lua
+Widgets\EditBox.lua
 Widgets\FramedFrame.lua
 Widgets\FramedText.lua
 Widgets\StackFrame.lua
 Widgets\TabControl.lua
 
-Renderers\BooleanRenderer.lua
 Renderers\StringRenderer.lua
+Renderers\NumberRenderer.lua
+Renderers\BooleanRenderer.lua
+Renderers\StringTableRenderer.lua
 
 Core.lua
